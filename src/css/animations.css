@@ -17,6 +17,7 @@
     animation-name: prawo;
     animation-duration: 3s;
     overflow:hidden;
+    white-space: nowrap;
   }
 
   @keyframes prawo2 {
@@ -28,4 +29,15 @@
     animation-name: prawo2;
     animation-duration: 3s;
     overflow:hidden;
+    white-space: nowrap;
   }
+  @keyframes miasto {
+    0%   { opacity: 0;}
+    100% { opacity:1;}}
+
+    .anim_info3{
+        animation-name: miasto;
+        animation-duration: 3s;
+        overflow:hidden;
+        white-space: nowrap;
+      }

@@ -28,7 +28,8 @@ const IndexPage = () => {
     else
     {console.log("działa")}
     const json=JSON.parse(req.responseText)
-    setDane([json.currentConditions.temp,json.currentConditions.humidity,json.currentConditions.cloudcover,json.currentConditions.pressure,json.currentConditions.windspeed,json.currentConditions.precip])
+    console.log(json)
+    setDane([json.currentConditions.temp,json.currentConditions.humidity,json.currentConditions.cloudcover,json.currentConditions.pressure,json.currentConditions.windspeed,json.days[1].precipprob])
     return;
     };
   }
