@@ -43,6 +43,7 @@ const IndexPage = () => {
   function restart()
   {
     setDane("pusto")
+    setErrorr("git")
   }
 
   //render depending on if we fetched weather data or not
