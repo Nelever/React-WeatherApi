@@ -1,0 +1,9 @@
+@keyframes lewo {
+    0%   {margin-bottom:1400px; opacity: 0;}
+    100% {margin-bottom:2.5rem; opacity:1;}
+  }
+
+  .anim{
+    animation-name: lewo;
+    animation-duration: 4s;
+  }
